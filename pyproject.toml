@@ -2,7 +2,7 @@
 name = "froide"
 readme = "README.md"
 license = { file = "LICENSE.txt" }
-requires-python = ">=3.10"
+requires-python = "~=3.13.0"
 description = "German Freedom of Information Portal"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
