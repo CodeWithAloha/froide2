@@ -37,7 +37,7 @@
     "autoprefixer": "^10.4.13",
     "cli-real-favicon": "0.0.8",
     "postcss": "^8.4.20",
-    "sass": "^1.58.3",
+    "sass": "^1.105.1",
     "typescript": "^7.0.2",
     "vite": "^4.1.2",
     "vite-plugin-dev-manifest": "^1.0.9"
