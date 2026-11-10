@@ -98,13 +98,13 @@ importers:
         version: 4.3.4(vite@4.4.9(@types/node@22.9.0)(sass@1.68.0)(terser@5.36.0))(vue@3.3.4)
       autoprefixer:
         specifier: ^10.4.13
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.5.28)
       cli-real-favicon:
         specifier: 0.0.8
         version: 0.0.8(debug@4.3.7(supports-color@8.1.1))
       postcss:
-        specifier: ^8.4.20
-        version: 8.4.30
+        specifier: ^8.5.28
+        version: 8.5.28
       sass:
         specifier: ^1.58.3
         version: 1.68.0
@@ -1598,8 +1598,8 @@ packages:
   namespace-emitter@2.0.1:
     resolution: {integrity: sha512-N/sMKHniSDJBjfrkbS/tpkPj4RAbvW3mr8UAzvlMHyun93XEm83IAvhWtJVHo+RHn/oO8Job5YN4b+wRjSVp5g==}
 
-  nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
+  nanoid@3.3.19:
+    resolution: {integrity: sha512-Y2tUNy4ouw6tq5oDSKeQYGOyhkUBhNOcGV/02KC+6kd9eDGqdZd++mjMiIDilrBYvjEnCYvVtsuHCuP+okSfug==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1712,8 +1712,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.4.30:
-    resolution: {integrity: sha512-7ZEao1g4kd68l97aWG/etQKPKq07us0ieSZ2TnFDk11i0ZfDW2AwKHYU8qv4MZKqN2fdBfg+7q0ES06UA73C1g==}
+  postcss@8.5.28:
+    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact@10.17.1:
@@ -1864,6 +1864,10 @@ packages:
 
   source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+    engines: {node: '>=0.10.0'}
+
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   source-map-support@0.5.21:
@@ -2608,7 +2612,7 @@ snapshots:
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
       magic-string: 0.30.2
-      postcss: 8.4.30
+      postcss: 8.5.28
       source-map-js: 1.0.2
 
   '@vue/compiler-ssr@3.3.4':
@@ -2816,14 +2820,14 @@ snapshots:
 
   async@3.2.4: {}
 
-  autoprefixer@10.4.16(postcss@8.4.30):
+  autoprefixer@10.4.16(postcss@8.5.28):
     dependencies:
       browserslist: 4.21.11
       caniuse-lite: 1.0.30001539
       fraction.js: 4.3.6
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.30
+      postcss: 8.5.28
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.5: {}
@@ -3687,7 +3691,7 @@ snapshots:
 
   namespace-emitter@2.0.1: {}
 
-  nanoid@3.3.6: {}
+  nanoid@3.3.19: {}
 
   nanoid@4.0.2: {}
 
@@ -3788,11 +3792,11 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.4.30:
+  postcss@8.5.28:
     dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
+      nanoid: 3.3.19
+      picocolors: 1.1.1
+      source-map-js: 1.2.2
 
   preact@10.17.1: {}
 
@@ -3950,6 +3954,8 @@ snapshots:
   sortablejs@1.15.2: {}
 
   source-map-js@1.0.2: {}
+
+  source-map-js@1.2.2: {}
 
   source-map-support@0.5.21:
     dependencies:
@@ -4127,7 +4133,7 @@ snapshots:
     dependencies:
       browserslist: 4.21.11
       escalade: 3.1.1
-      picocolors: 1.0.0
+      picocolors: 1.1.1
 
   update-browserslist-db@1.1.1(browserslist@4.24.2):
     dependencies:
@@ -4153,7 +4159,7 @@ snapshots:
   vite@4.4.9(@types/node@22.9.0)(sass@1.68.0)(terser@5.36.0):
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.4.30
+      postcss: 8.5.28
       rollup: 3.29.3
     optionalDependencies:
       '@types/node': 22.9.0
